@@ -3,6 +3,10 @@ package com.exemploprojeto2.entidades;
 import java.io.Serializable;
 import java.util.Objects;
 
+// Essa classe é usada para representar uma chave composta, ou seja, 
+// uma chave primária que combina dois atributos: formulario e questao.
+
+
 public class FormularioQuestaoId implements Serializable {
 
     private Long formulario;
